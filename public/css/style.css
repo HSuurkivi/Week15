@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(150, 196, 236);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(72, 66, 66, 0.644);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+}
+
+.movie-poster {
+    width: 300px;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius:30px;
+    position: relative;
+    left: -50rem;
+    animation: slide-from-left 3.5s ease-in-out forwards;
+}
+
+@keyframes slide-from-left {
+    80% {left: 1.5rem;}
+    100% {left: 0;}
+}
