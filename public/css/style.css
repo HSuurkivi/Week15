@@ -29,3 +29,9 @@ body {
     80% {left: 1.5rem;}
     100% {left: 0;}
 }
+
+.chat-container{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
